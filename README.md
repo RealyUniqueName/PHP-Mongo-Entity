@@ -2,7 +2,7 @@ PHP-Mongo-Entity
 =========
 
 * Easy way to map your entities to Mongo.
-* Getters/setters system, wich simplifies getters and setters using:
+* Getters/setters system, which simplifies getters and setters using:
 
 ```php
 $obj->counter ++;
