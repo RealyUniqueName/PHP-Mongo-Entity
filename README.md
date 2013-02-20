@@ -18,4 +18,4 @@ $arrayProperty[]  = 22;
 $obj->setArrayProperty( $arrayProperty );
 ```
 
-MIT licence.
+MIT license.
