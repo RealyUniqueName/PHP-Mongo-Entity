@@ -12,7 +12,7 @@ $obj->setCounter( $obj->getCounter() + 1 );
 $obj->arrayProperty[1] = 10;
 $obj->arrayProperty[]  = 22;
 //instead of
-var arrayProperty = $obj->getArrayProperty();
+$arrayProperty = $obj->getArrayProperty();
 $arrayProperty[1] = 10;
 $arrayProperty[]  = 22;
 $obj->setArrayProperty( $arrayProperty );
