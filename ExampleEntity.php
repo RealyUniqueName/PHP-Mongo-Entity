@@ -40,8 +40,9 @@ class ExampleEntity extends EntityAbstract{
     * And these changes will be saved to mongo on .save()
     */
     public function &_getFriends(&$friends){
-        if( !is_array($friends) ){
-
+        #keep friends list not too long
+        while( count($friends) > 10 ){
+            unset($friends[10]);
         }
 
         return $friends;
