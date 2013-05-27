@@ -26,7 +26,7 @@ class ExampleEntity extends EntityAbstract{
     * Setter for virtual property. Prevent setting this property to ensure it won't be saved to database
     *
     */
-    public function _setSomeProperty($current){
+    public function _setSomeProperty($current, $new){
         trigger_error('someProperty can not be set', E_USER_ERROR);
     }//function _getRow()
 
